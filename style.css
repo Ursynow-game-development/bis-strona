@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Nagłowek */
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+/* Menu */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    display: inline;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.navbar a {
+    font-size: 15px;
+    margin: 5% 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    background-color: azure;
+}
+
+.navbar li:hover a {
+    color: black;
+}
+
+/* Sektor główny */
+
+.main p {
+    margin: 50px 20%;
+    font-size: 20px;
+}
+
+/* Stopka */
+
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
